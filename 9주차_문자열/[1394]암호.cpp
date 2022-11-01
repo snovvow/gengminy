@@ -21,6 +21,6 @@ int main(void) {
         cnt = (cnt + tmp * (idx + 1)) % 900528;
         tmp = tmp * k % 900528;
     }
-
+    
     cout << cnt << endl;
 }
